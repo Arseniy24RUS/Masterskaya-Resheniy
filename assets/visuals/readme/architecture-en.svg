@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850" role="img" aria-labelledby="title desc">
+  <title id="title">Masterskaya Resheniy workflow</title>
+  <desc id="desc">A static mathematics course moves from lesson text to live lab, practice exercise and immediate feedback.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#0f5b4c"/>
+    </marker>
+    <style>
+      .bg{fill:#f7fbf8}
+      .box{fill:#fff;stroke:#0f5b4c;stroke-width:2.3}
+      .soft{fill:#eff8d8}
+      .footer{fill:#edf7f3;stroke:#8dbf9e;stroke-width:2}
+      text{font-family:Arial, Helvetica, sans-serif;letter-spacing:0;fill:#0b2c2a}
+      .title{font-size:30px;font-weight:700}
+      .boxhead{font-size:27px;font-weight:700}
+      .body{font-size:24px;fill:#405853}
+      .foot{font-size:23px;font-weight:700;fill:#0b2c2a}
+      .arrow{stroke:#0f5b4c;stroke-width:3.6;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1000" height="850"/>
+  <text class="title" x="52" y="56">Masterskaya Resheniy: lesson, lab,</text>
+<text class="title" x="52" y="94">exercise and feedback</text>
+  <rect class="box soft" x="70" y="124" width="860" height="176" rx="12"/>
+<text class="boxhead" x="98" y="168">1. Static course content</text>
+<text class="body" x="98" y="210">24 modules, 144 lessons, tasks and glossary</text>
+<text class="body" x="98" y="240">Content lives in JavaScript; no account required</text>
+<text class="body" x="98" y="270">Lessons start from explanation and example</text>
+  <line class="arrow" x1="500" y1="316" x2="500" y2="352"/>
+  <rect class="box" x="70" y="370" width="860" height="188" rx="12"/>
+<text class="boxhead" x="98" y="414">2. Interactive lab</text>
+<text class="body" x="98" y="456">Numbers, tables, graphs and resources change live</text>
+<text class="body" x="98" y="486">Exercise A repeats; B transfers; C checks fluency</text>
+<text class="body" x="98" y="516">Feedback updates after the learner tries an answer</text>
+  <line class="arrow" x1="500" y1="574" x2="500" y2="610"/>
+  <rect class="box soft" x="70" y="628" width="860" height="176" rx="12"/>
+<text class="boxhead" x="98" y="672">3. Browser session</text>
+<text class="body" x="98" y="714">Steps, hints and first-check status stay local</text>
+<text class="body" x="98" y="744">Reload clears practice state; no server storage</text>
+<text class="body" x="98" y="774">Tests cover tasks, routing and helper behavior</text>
+  <rect class="footer" x="70" y="818" width="860" height="26" rx="7"/>
+  <text class="foot" x="88" y="838">Flow: lesson -&gt; interactive lab -&gt; exercise -&gt; feedback.</text>
+</svg>
